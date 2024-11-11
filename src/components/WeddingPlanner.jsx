@@ -1,7 +1,5 @@
 import React from 'react';
 import { Calendar, Clock, Users, Mail, Phone, MapPin} from 'lucide-react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 import HeroSection from './HeroSection';
 import Popular from './Popular';
 
@@ -16,8 +14,7 @@ const WeddingPlanner = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
-      {/* Navigation */}
-	  <NavBar />
+     
       
 
       {/* Hero Section */}
@@ -105,8 +102,6 @@ const WeddingPlanner = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };
