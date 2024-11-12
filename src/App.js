@@ -1,7 +1,7 @@
-import { Routes } from 'react-router-dom';
-import WeddingPlanner from './components/WeddingPlanner';
+import { Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -12,12 +12,11 @@ function App() {
 
       <Routes>
       {/* <Route path="/aboutus" element={<AboutUsPage />} />  */}
+        <Route path='/' element={<Home />} />
       </Routes>
-
-      <WeddingPlanner />
-
-        {/* Footer */}
-        <Footer />
+    
+      {/* Footer */}
+      <Footer />
 
     </div>
   );
