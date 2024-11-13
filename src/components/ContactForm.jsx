@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactForm = () => {
   const handleSubmit = (e) => {
@@ -7,9 +7,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center p-4">
-      <div className="w-3/4 bg-[#224C64] p-16 rounded-3xl">
-        <form onSubmit={handleSubmit} className="space-y-6">
+    <div className="flex items-center justify-center sm:p-4 ">
+      <div className="w-full md:w-3/4 bg-[#224C64] p-3 sm:p-12 rounded-3xl">
+        <form onSubmit={handleSubmit} className="my-6">
           <h2 className="text-2xl text-center mb-8 font-serif italic text-gray-100">
             Get in Touch
           </h2>
@@ -71,18 +71,19 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <button
-            type="submit"
-            className="w-32 mx-auto block px-6 py-2 bg-yellow-500 hover:bg-yellow-600 transition-colors rounded-md text-black font-medium "
-          >
-            Submit
-          </button>
+          <div className="mt-20">
+            <button
+              type="submit"
+              className="w-32 mx-auto block px-6 py-2 bg-yellow-500 hover:bg-yellow-600 transition-colors rounded-md text-black font-medium "
+            >
+              Submit
+            </button>
+          </div>
+
         </form>
       </div>
-
     </div>
   );
 };
 
 export default ContactForm;
-

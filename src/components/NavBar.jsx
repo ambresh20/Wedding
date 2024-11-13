@@ -1,19 +1,17 @@
 import React, { useState } from "react";
-import { Heart, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Logo from "../Assest/Home/logo.png" ;
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div>
-      <nav className="bg-white shadow-md">
+      <nav className="bg-[#224C64] shadow-md">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <Heart className="h-8 w-8 text-pink-500" />
-              <span className="ml-2 text-xl font-semibold text-gray-800">
-                Dream Weddings
-              </span>
+            <div className="flex items-center"> 
+              <img src={Logo} alt="Logo" className="my-2 " />
             </div>
 
             {/* Mobile menu button */}
@@ -30,23 +28,24 @@ const NavBar = () => {
               </button>
             </div>
 
-            {/* Desktop menu */}
+            {/* Desktop menu */} 
             <div className="hidden md:flex space-x-8">
-              <a href="#services" className="text-gray-600 hover:text-pink-500">
-                Home
+              <a href="#services" className="text-white hover:text-pink-500">
+                HOME
               </a>
-              <a href="#services" className="text-gray-600 hover:text-pink-500">
-                Services
+              <a href="#gellary" className="text-white hover:text-pink-500">
+                GALLERY
               </a>
-              <a
-                href="#portfolio"
-                className="text-gray-600 hover:text-pink-500"
-              >
-                Portfolio
+              <a href="#events" className="text-white hover:text-pink-500">
+                EVENTS
               </a>
-              <a href="#contact" className="text-gray-600 hover:text-pink-500">
-                Contact
+              <a href="#portfolio" className="text-white hover:text-pink-500">
+                PORTFOLIO
               </a>
+              <a href="#services" className="text-white hover:text-pink-500">
+                SERVICES
+              </a>
+              
             </div>
           </div>
         </div>
@@ -54,24 +53,36 @@ const NavBar = () => {
         {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+            <div className="flex flex-col items-center px-2 pt-2 pb-3 space-y-1">
               <a
-                href="#services"
-                className="block px-3 py-2 text-gray-600 hover:text-pink-500"
+                href="/"
+                className="block px-3 py-2 text-white hover:text-pink-500"
               >
-                Services
+                HOME 
+              </a>
+              <a
+                href="#gellary"
+                className="block px-3 py-2 text-white hover:text-pink-500"
+              >
+                GALLERY
               </a>
               <a
                 href="#portfolio"
-                className="block px-3 py-2 text-gray-600 hover:text-pink-500"
+                className="block px-3 py-2 text-white hover:text-pink-500"
               >
-                Portfolio
+                PORTFOLIO
               </a>
               <a
-                href="#contact"
-                className="block px-3 py-2 text-gray-600 hover:text-pink-500"
+                href="#events"
+                className="block px-3 py-2 text-white hover:text-pink-500"
               >
-                Contact
+                EVENTS
+              </a>
+              <a
+                href="#services"
+                className="block px-3 py-2 text-white hover:text-pink-500"
+              >
+                SERVICES 
               </a>
             </div>
           </div>

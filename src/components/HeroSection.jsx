@@ -7,12 +7,13 @@ import img2 from "../Assest/wedswipe/b2.jpg";
 import img3 from "../Assest/wedswipe/b3.png";
 import img4 from "../Assest/wedswipe/b4.png";
 import img5 from "../Assest/wedswipe/b5.png";
+import img6 from "../Assest/wedswipe/b6.png" ;
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const images = [img1,img2, img3, img4, img5];
+const images = [img6, img1, img2, img3, img4, img5];
 
 const HeroSection = () => {
   const prevRef = useRef(null);
@@ -99,7 +100,9 @@ const HeroSection = () => {
           background: white;
           transform: scale(1.2);
         }
-      `}</style>
+      `}
+      </style>
+
     </section>
   );
 };
