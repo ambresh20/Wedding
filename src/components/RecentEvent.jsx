@@ -4,6 +4,7 @@ import CardImg from "../Assest/RecentEvent/cardImg1.png";
 import Picture from "../Assest/RecentEvent/picture 1.png";
 import DecorativeLine from "./DecorativeLine";
 import ContactForm from "./ContactForm";
+import ScrollToTop from "./ScrollToTop";
 
 const RecentEvent = () => {
   // State for current page
@@ -291,6 +292,8 @@ const RecentEvent = () => {
 
         {/* Contact Form  */}
         <ContactForm />
+
+        <ScrollToTop />
 
       </div>
 
