@@ -8,6 +8,7 @@ import { ArrowRight } from "lucide-react";
 import ContactForm from "./ContactForm";
 import HeroSection from "./HeroSection";
 import { Link } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   const recentEvents = [
@@ -250,6 +251,8 @@ const Home = () => {
 
           {/* Contact Form  */}
           <ContactForm />
+
+          <ScrollToTop />
         </div>
 
       </div>

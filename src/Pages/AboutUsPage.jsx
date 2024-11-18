@@ -3,6 +3,7 @@ import DecorativeLine from "../components/DecorativeLine";
 import Banner from "../Assest/AboutUs/Banner.png";
 import Img1 from "../Assest/Services/s1.png";
 import ContactForm from "../components/ContactForm";
+import ScrollToTop from "../components/ScrollToTop" ;
 
 const AboutUsPage = () => {
   return (
@@ -175,6 +176,8 @@ const AboutUsPage = () => {
         <DecorativeLine />
 
         <ContactForm />
+
+        <ScrollToTop />
       </div>
     </div>
   );

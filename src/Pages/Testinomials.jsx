@@ -1,21 +1,19 @@
 import React from "react";
 import DecorativeLine from "../components/DecorativeLine";
 import ScrollToTop from "../components/ScrollToTop";
-import Popular from "../components/Popular" ;
+import Popular from "../components/Popular";
 import Banner from "../Assest/Testimonial/Banner.jpg";
-import People1 from "../Assest/Testimonial/p1.png" ;
-import People2 from "../Assest/Testimonial/p2.png" ;
-import People3 from "../Assest/Testimonial/p3.png" ;
-import People4 from "../Assest/Testimonial/p4.png" ;
-import People5 from "../Assest/Testimonial/p5.png" ;
-import People6 from "../Assest/Testimonial/p6.png" ;
-
+import People1 from "../Assest/Testimonial/p1.png";
+import People2 from "../Assest/Testimonial/p2.png";
+import People3 from "../Assest/Testimonial/p3.png";
+import People4 from "../Assest/Testimonial/p4.png";
+import People5 from "../Assest/Testimonial/p5.png";
+import People6 from "../Assest/Testimonial/p6.png";
 
 const Testinomials = () => {
-
   const testimonials = [
     {
-      image: People1, 
+      image: People1,
       name: "John Doe",
       profession: "Working Professional",
       description:
@@ -29,32 +27,33 @@ const Testinomials = () => {
         "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
     },
     {
-		image: People3, 
-		name: "John Doe",
-		profession: "Working Professional",
-		description:
-		  "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
-	  },
-	  {
-		image: People4,
-		name: "Jane Smith",
-		profession: "Working Professional",
-		description:
-		  "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
-	  },{
-		image: People5, 
-		name: "John Doe",
-		profession: "Working Professional",
-		description:
-		  "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
-	  },
-	  {
-		image: People6,
-		name: "Jane Smith",
-		profession: "Working Professional",
-		description:
-		  "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
-	  }
+      image: People3,
+      name: "John Doe",
+      profession: "Working Professional",
+      description:
+        "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
+    },
+    {
+      image: People4,
+      name: "Jane Smith",
+      profession: "Working Professional",
+      description:
+        "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
+    },
+    {
+      image: People5,
+      name: "John Doe",
+      profession: "Working Professional",
+      description:
+        "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
+    },
+    {
+      image: People6,
+      name: "Jane Smith",
+      profession: "Working Professional",
+      description:
+        "Vitae placerat odio venenatis faucibus. Donec porta porta placerat scelerisque ex tortor.",
+    },
   ];
 
   return (
@@ -96,13 +95,13 @@ const Testinomials = () => {
           </p>
         </div>
 
-		{/* Line  */}
-		<DecorativeLine />
+        {/* Line  */}
+        <DecorativeLine />
 
-		<Popular />
+        <Popular />
 
-		{/* Line  */}
-		<DecorativeLine />
+        {/* Line  */}
+        <DecorativeLine />
 
         {/* Card  */}
         <div className="min-h-screen p-10 flex items-center justify-center">
@@ -112,13 +111,12 @@ const Testinomials = () => {
             ))}
           </div>
         </div>
-		
-		{/* Line  */}
-		<DecorativeLine />
 
-		<ScrollToTop />
+        {/* Line  */}
+        <DecorativeLine />
 
-
+        <ScrollToTop />
+        
       </div>
     </div>
   );

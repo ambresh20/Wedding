@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import ScrollToTop from "../components/ScrollToTop";
 
 const ContactUsPage = () => {
   const [userData, setUserData] = useState({
@@ -170,6 +171,8 @@ const ContactUsPage = () => {
           </div>
         </div>
       </section>
+
+      <ScrollToTop />
     </div>
   );
 };
