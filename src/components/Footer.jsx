@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../Assest/Home/logo.png" ;
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <img
-              src="logo-url.png"
+              src={Logo}
               alt="Logo"
-              className="h-16 w-16 mx-auto sm:mx-0"
+              className="h-32 w-32 mx-auto sm:mx-0"
             />
             <p className="text-center sm:text-left">
               Transforming occasions into unforgettable moments. From weddings
