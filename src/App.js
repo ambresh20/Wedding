@@ -4,7 +4,9 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import RecentEvent from './components/RecentEvent';
 import ServicesPage from './Pages/ServicesPage';
-import AboutPage from './Pages/AboutPage';
+import AboutPage from './Pages/AboutUsPage';
+import Testinomials from './Pages/Testinomials';
+import ContactUsPage from './Pages/ContactUsPage';
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
         <Route path='/recent' element={<RecentEvent />} />
         <Route path='/service' element={<ServicesPage />} />
         <Route path='/aboutus' element={<AboutPage />} />
-
+        <Route path='/testinomial' element={<Testinomials />} />
+        <Route path='/contactus' element={<ContactUsPage />} />
       </Routes>
     
       {/* Footer */}

@@ -7,6 +7,7 @@ import Img3 from "../Assest/Services/s3.png";
 import Img4 from "../Assest/Services/s4.png";
 import Img5 from "../Assest/Services/s5.png";
 import Img6 from "../Assest/Services/s6.png";
+import ContactForm from "../components/ContactForm";
 
 const ServicesPage = () => {
   return (
@@ -275,6 +276,8 @@ const ServicesPage = () => {
 
         {/* Line  */}
         <DecorativeLine />
+
+        <ContactForm />
 
       </div>
     </div>

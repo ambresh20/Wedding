@@ -1,5 +1,6 @@
 import React from "react";
-import Logo from "../Assest/Home/logo.png" ;
+import Logo from "../Assest/Home/logo.png";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,11 +9,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="space-y-4">
-            <img
-              src={Logo}
-              alt="Logo"
-              className="h-32 w-32 mx-auto sm:mx-0"
-            />
+            <NavLink to="/">
+              <img
+                src={Logo}
+                alt="Logo"
+                className="h-32 w-32 mx-auto sm:mx-0"
+              />
+            </NavLink>
+
             <p className="text-center sm:text-left">
               Transforming occasions into unforgettable moments. From weddings
               to surprise parties, we craft unforgettable moments with bespoke
@@ -22,7 +26,7 @@ const Footer = () => {
             <div className="flex justify-center sm:justify-start space-x-4 mt-4">
               {/* whatsapp  */}
               <a
-                href="https://www.linkedin.com"
+                href="https://www.whatsapp.com/"
                 target="_blank"
                 className="hover:text-green-500"
                 rel="noreferrer"
@@ -39,7 +43,7 @@ const Footer = () => {
 
               {/* twitter  */}
               <a
-                href="https://www.linkedin.com"
+                href="https://x.com"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-sky-500"
@@ -56,7 +60,7 @@ const Footer = () => {
 
               {/* youtube  */}
               <a
-                href="https://www.linkedin.com"
+                href="https://www.youtube.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-red-500"
@@ -73,7 +77,7 @@ const Footer = () => {
 
               {/* intagram  */}
               <a
-                href="https://www.linkedin.com"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-rose-400"
@@ -94,42 +98,41 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-semibold text-white">Our Services</h3>
             <ul className="mt-4 space-y-3">
-            <li>
+              <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Anniversary Decoration
+                  Anniversary Decoration
                 </a>
               </li>
               <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Surprise Party Decoration
+                  Surprise Party Decoration
                 </a>
               </li>
               <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Birthday Decoration
+                  Birthday Decoration
                 </a>
               </li>
               <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Balloon Decoration
+                  Balloon Decoration
                 </a>
               </li>
               <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Wedding Decoration
+                  Wedding Decoration
                 </a>
               </li>
               <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Baby Shower Decoration
+                  Baby Shower Decoration
                 </a>
               </li>
               <li>
                 <a href="#home" className="hover:text-emerald-600 ">
-                Proposal Decoration
+                  Proposal Decoration
                 </a>
               </li>
-              
             </ul>
           </div>
 
@@ -173,34 +176,22 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold text-white">Useful Links</h3>
             <ul className="mt-4 space-y-3">
               <li>
-                <a href="#home" className="hover:text-emerald-600 ">
-                  Home
-                </a>
+                <Link to="/" className="hover:text-emerald-600 ">Home</Link>
               </li>
               <li>
-                <a href="#home" className="hover:text-emerald-600">
-                  About
-                </a>
+              <Link to="/aboutus" className="hover:text-emerald-600 ">About</Link>
               </li>
               <li>
-                <a href="#home" className="hover:text-emerald-600">
-                  Decorations
-                </a>
+              <Link to="/" className="hover:text-emerald-600 ">Decorations</Link>
               </li>
               <li>
-                <a href="#home" className="hover:text-emerald-600">
-                  Gallery
-                </a>
+              <Link to="/" className="hover:text-emerald-600 ">Gallery</Link>
               </li>
               <li>
-                <a href="#home" className="hover:text-emerald-600">
-                  Blog
-                </a>
+              <Link to="/" className="hover:text-emerald-600 ">Blog</Link>
               </li>
               <li>
-                <a href="#home" className="hover:text-emerald-600">
-                  Contact
-                </a>
+              <Link to="/contactus" className="hover:text-emerald-600 ">Contact</Link>
               </li>
             </ul>
           </div>

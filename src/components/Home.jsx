@@ -7,6 +7,7 @@ import DecorativeLine from "./DecorativeLine";
 import { ArrowRight } from "lucide-react";
 import ContactForm from "./ContactForm";
 import HeroSection from "./HeroSection";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const recentEvents = [
@@ -144,7 +145,7 @@ const Home = () => {
           </div>
 
           <div className="bg-[#224C64] py-12 relative mx-auto rounded-2xl mb-8 ">
-            <div className="flex justify-center gap-8">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
               {recentEvents.map((event) => (
                 <div key={event.id} className="p-4 rounded-lg">
                   <img
@@ -156,12 +157,9 @@ const Home = () => {
               ))}
             </div>
             <div className="text-center mt-6">
-              <a
-                href="#a"
-                className="text-white underline uppercase hover:text-gray-300 transition-colors duration-300"
-              >
-                View More...
-              </a>
+              <Link to="/recent" className="text-white underline uppercase hover:text-gray-300 transition-colors duration-300">
+              View More...
+              </Link>
             </div>
           </div>
 
@@ -192,12 +190,9 @@ const Home = () => {
               </div>
 
               <div className="text-center mt-8">
-                <a
-                  href="#more"
-                  className="text-white text-sm tracking-wider underline hover:text-gray-300 transition-colors"
-                >
-                  MORE..
-                </a>
+                <Link to="/testinomial" className="text-white text-sm tracking-wider underline hover:text-gray-300 transition-colors">
+                MORE..
+                </Link>
               </div>
             </div>
           </section>
@@ -237,10 +232,12 @@ const Home = () => {
                       <p className="text-slate-300 mb-6 flex-grow">
                         {service.description}
                       </p>
+                      <Link to="/service" className="flex items-center justify-center">
                       <button className="flex items-center justify-center text-slate-300 hover:text-white transition-colors">
                         Learn More
                         <ArrowRight className="ml-2 w-4 h-4" />
                       </button>
+                      </Link>
                     </div>
                   ))}
                 </div>

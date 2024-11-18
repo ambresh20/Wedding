@@ -42,7 +42,7 @@ const Popular = () => {
   ];
 
   return (
-    <section className="bg-gray-300 mx-auto mt-8 px-8 py-6" id="popular">
+    <section className="mx-auto mt-8 px-8 py-6" id="popular">
       <h2 className="text-center text-3xl bordered-title mb-10">
         Weddings
         <span className="text-red-500 bordered-title p-0 m-0 font-bold"> Popular</span>
