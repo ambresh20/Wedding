@@ -35,67 +35,72 @@ const Home = () => {
   const testimonials = [
     {
       id: 1,
-      text: "nibh at Lorem eget lorem. dignissim, diam dignissim, varius Nam dolor ultrices sapien",
-      author: "-HJGHV",
+      text: "Best decision to get work done from her. The decoration was on point.. everything was so perfect",
+      author: "- Anushka",
     },
     {
       id: 2,
-      text: "nibh at Lorem eget lorem. dignissim, diam dignissim, varius Nam dolor ultrices sapien",
-      author: "-HJGHV",
+      text: "Absolutely stunning! The decor is so elegant, a perfect blend of simplicity and beauty🎈✨",
+      author: "- Sonam",
     },
     {
       id: 3,
-      text: "nibh at Lorem eget lorem. dignissim, diam dignissim, varius Nam dolor ultrices sapien",
-      author: "-HJGHV",
+      text: "Highly recommend. Amazing balloon decor we just loved it! Added a magical touch to our event.",
+      author: "- Komal Saxena",
     },
     {
       id: 4,
-      text: "nibh at Lorem eget lorem. dignissim, diam dignissim, varius Nam dolor ultrices sapien",
-      author: "-HJGHV",
+      text: "Had an amazing experience with Vision event planner. the setup was very beautiful and everyone penny was worth it",
+      author: "- Kajal Verma",
     },
     {
       id: 5,
-      text: "nibh at Lorem eget lorem. dignissim, diam dignissim, varius Nam dolor ultrices sapien",
-      author: "-HJGHV",
+      text: "Thnku vision event planner and Aakansha for this beautiful Vision🥰. Highly recommended.. keep it",
+      author: "- Ayush Jha",
     },
+    {
+      id:6,
+      text: "Thanku Vision Event to have this birthday setup 😍 Loved the behavior and calmness of.",
+      author: "- Swati "
+    }
   ];
 
   const services = [
     {
       id: 1,
-      title: "SERVICES1",
+      title: "Wedding planner",
       description:
-        "ultrices lacus, nec facilisis risus dui ipsum sit in tincidunt tincidunt urna facilisis Donec amet, ex orci Praesent dignissim, lacus ac non. efficitur. Ut ex Ut viverra scelerisque Nullam id nisl. non. nec nisl. non, Ut vitae lobortis.",
+        "We specialize in crafting breathtaking wedding decorations that transform your special day into an enchanting celebration of love and unity. With our meticulous attention to detail and personalized approach, we ensure that every aspect of your wedding decor reflects your unique style and vision.",
     },
     {
       id: 2,
-      title: "SERVICES 2",
+      title: "Birthday Decoration",
       description:
-        "ultrices lacus, nec facilisis risus dui ipsum sit in tincidunt tincidunt urna facilisis Donec amet, ex orci Praesent dignissim, lacus ac non. efficitur. Ut ex Ut viverra scelerisque Nullam id nisl. non. nec nisl. non, Ut vitae lobortis.",
+        "our birthday decoration services are designed to turn your special day into a memorable and magical celebration, whether at home or any venue. Whether you’re planning a milestone birthday party, a sweet sixteen bash, or a themed extravaganza, we have the creativity and expertise to bring your vision to life.",
     },
     {
       id: 3,
-      title: "SERVICES 3",
+      title: "Surprise Decoration ",
       description:
-        "ultrices lacus, nec facilisis risus dui ipsum sit in tincidunt tincidunt urna facilisis Donec amet, ex orci Praesent dignissim, lacus ac non. efficitur. Ut ex Ut viverra scelerisque Nullam id nisl. non. nec nisl. non, Ut vitae lobortis.",
+        "Our surprise party decoration services are designed to add an extra element of excitement and wonder to your special occasion. Whether you’re planning a surprise birthday bash, anniversary celebration, or any other event, we specialize in creating memorable moments that leave a lasting impression.",
     },
     {
       id: 4,
-      title: "SERVICES 4",
+      title: "Balloon Decoration",
       description:
-        "ultrices lacus, nec facilisis risus dui ipsum sit in tincidunt tincidunt urna facilisis Donec amet, ex orci Praesent dignissim, lacus ac non. efficitur. Ut ex Ut viverra scelerisque Nullam id nisl. non. nec nisl. non, Ut vitae lobortis.",
+        "Our balloon decoration services add an element of whimsy and charm to any event, whether it’s a birthday celebration, corporate gathering, or grand opening. With our expertise in balloon artistry, we transform ordinary spaces into vibrant and captivating environments that leave a lasting impression.",
     },
     {
       id: 5,
-      title: "SERVICES 5",
+      title: "Anniversary Decoration",
       description:
-        "ultrices lacus, nec facilisis risus dui ipsum sit in tincidunt tincidunt urna facilisis Donec amet, ex orci Praesent dignissim, lacus ac non. efficitur. Ut ex Ut viverra scelerisque Nullam id nisl. non. nec nisl. non, Ut vitae lobortis.",
+        "Celebrating the journey of love, Vision Event Planner offers bespoke anniversary decoration services in Delhi NCR to elevate your special day. From intimate gatherings to grand affairs, we curate enchanting atmospheres infused with romance and sophistication.",
     },
     {
       id: 6,
-      title: "SERVICES 6",
+      title: "Festival Decoration",
       description:
-        "ultrices lacus, nec facilisis risus dui ipsum sit in tincidunt tincidunt urna facilisis Donec amet, ex orci Praesent dignissim, lacus ac non. efficitur. Ut ex Ut viverra scelerisque Nullam id nisl. non. nec nisl. non, Ut vitae lobortis.",
+        "Festive decorations play a vital role in enhancing the joy and spirit of celebrations like Diwali, New Year, Navratri, Janmashtami, and more. Whether it’s the radiant glow of diyas during Diwali or the vibrant colors of Navratri, each festival demands its unique decorative touch.",
     },
   ];
 
@@ -210,17 +215,10 @@ const Home = () => {
                 </h2>
                 <div className="text-slate-300 text-center max-w-3xl mx-auto mb-16 space-y-4">
                   <p>
-                    cursus volutpat varius id libero, faucibus non, placerat
-                    nisl, sollicitudin dui Vestibulum vel Sed amet, nec elit at
-                    quis id lacus nec gravida elit quis dolor Vestibulum commodo
-                    cursus ex viverra vitae In convallis.
+                  At Vision Event Planner, we believe every couple deserves a flawless and memorable wedding. Our dedicated team specializes in curating personalized wedding experiences, turning your dream day into reality.
                   </p>
                   <p>
-                    ultrices lacus, nec facilisis risus dui ipsum sit In
-                    tincidunt tincidunt urna facilisis Donec amet, ex orci
-                    Praesent dignissim, lacus ac non, efficitur. Ut et Ut
-                    viverra scelerisque Nullam id dui, non, nec nisi. non, Ut
-                    vitae lobortis,
+                  Planning a wedding is one of the most exciting chapters of your life, and we are here to make it effortless and enjoyable. Our team of expert wedding planners is passionate about turning your ideas into a stunning reality, leaving you free to soak in every magical moment. Whether you envision a fairytale celebration or a modern, chic affair, we’re committed to making your special day a true reflection of your love story.
                   </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12">

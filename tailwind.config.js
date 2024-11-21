@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(91.2deg, rgba(136,80,226,1) 4%, rgba(16,13,91,1) 96.5%)',
-      }
+      },
+      blur: {
+        '25': '25px', 
+      },
     },
   },
   plugins: [],

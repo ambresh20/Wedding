@@ -39,18 +39,20 @@ const ServicesPage = () => {
             Wedding Planning Services
           </h1>
           <p className="text-gray-400">
-            cursus scelerisque orci Praesent non, Nam ex faucibus eget Lorem ac
-            Nullam sodales. Lorem In placerat. non fringilla felis, ex ex
-            volutpat amet, adipiscing Praesent laoreet Morbi Nunc dui. lobortis,
-            In ex. tincidunt felis, placerat lorem. sodales. elit cursus nisi
-            nec placerat eu dui Donec est. eget enim. turpis tincidunt Morbi Ut
-            non. tempor ex Nam dui orci at varius fringilla ex eu scelerisque Ut
-            viverra Cras nisi non volutpat facilisis elementum Donec porta
-            sollicitudin. placerat lorem. non sapien tincidunt lacus quis
-            hendrerit convallis. sit nisi Nam fringilla nulla, non facilisis
-            faucibus luctus consectetur Cras ipsum sollicitudin. vel est. felis,
-            non cursus elementum amet, turpis Nunc vitae odio lacus, elit nec
-            non amet, lorem. tincidunt non, sed Vestibulum
+            Planning your wedding should be an
+            exciting and joyous experience, not a stressful one. That’s where
+            our expert wedding planning services come in. From the initial
+            stages of brainstorming ideas to the final moments of your special
+            day, we’re by your side every step of the way. Our comprehensive
+            planning includes creating detailed timelines, managing budgets, and
+            coordinating with vendors to ensure every aspect of your wedding is
+            flawless. We specialize in crafting tailored solutions that suit
+            your vision, whether you dream of a grand, traditional celebration
+            or an intimate, modern affair. With our meticulous attention to
+            detail, you can trust us to handle everything – from guest
+            management to logistics – allowing you to focus on celebrating your
+            love. Let us transform your wedding journey into a seamless and
+            magical experience.
           </p>
         </div>
 
@@ -73,15 +75,7 @@ const ServicesPage = () => {
                 Decor and Design
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                cursus scelerisque orci Praesent non, Nam ex faucibus eget Lorem
-                ac Nullam sodales. Lorem in placerat. non fringilla felis, ex
-                volutpat amet, adipiscing Praesent lorem Morbi Nunc dui.
-                lobortis, in ex. tincidunt felis, placerat lorem sodales. elit
-                cursus nisi nec placerat eu dui Donec est. eget enim, turpis
-                tincidunt Morbi Ut non, tempor ex Nam dui orci ultrices
-                fringilla eu scelerisque Ut viverra Cras nisl non volutpat
-                facilisis elementum Donec porta sollicitudin, placerat lorem.
-                non sapien tincidunt lacus eget hendrerit convallis.
+              Your wedding decor sets the stage for unforgettable moments, and we ensure it reflects your unique style and love story. From breathtaking floral arrangements to elegant table settings, our design team curates every detail with precision and creativity. Whether you dream of a classic, rustic, or contemporary aesthetic, we’ll bring it to life with a harmonious blend of colors, textures, and lighting. We partner with top-notch decorators and designers to craft stunning backdrops, centerpieces, and installations. Let us transform your venue into a magical setting that leaves your guests in awe and makes your special day truly unforgettable.
               </p>
             </div>
           </div>
@@ -107,13 +101,7 @@ const ServicesPage = () => {
                 libero, volutpat ex urna, placerat volutpat Donec ex max.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                consectetur nibh nibh nisl, volutpat libero, ipsum est orci Ut
-                Nullam diam sapien non et eget malesuada Sed est. ullamcorper et
-                varius Donec placerat ipsum maximus faucibus volutpat Lorem non
-                efficitur. ac lorem et felis, dui risus sapien ac massa Praesent
-                Praesent ipsum sollicitudin, tempus eu ipsum sollicitudin dui
-                odio enim lacus lorem, purus dui cursus id eget non Vestibulum
-                massa convallis.
+              Weddings are more than just the big day – they’re a celebration of love, laughter, and family. From engagement parties to mehendi, sangeet, and bachelor/bachelorette events, we plan every pre-wedding celebration with care and creativity. Each event is tailored to your preferences, featuring vibrant themes, personalized decor, and seamless coordination. Whether you prefer a grand celebration or an intimate gathering, we’ll ensure every event is packed with joy, music, and memorable moments. Let us make your journey to the big day as special and enjoyable as the wedding itself.
               </p>
             </div>
             {/* Image Section */}
@@ -146,19 +134,7 @@ const ServicesPage = () => {
                 DESTINATION AND VENUE SELECTION
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                cursus scelerisque orci Praesent non, Nam ex faucibus eget Lorem
-                ac Nullam sodales. Lorem In placerat. non fringilla felis, ex ex
-                volutpat amet, adipiscing Praesent laoreet Morbi Nunc dui.
-                lobortis, In ex. tincidunt felis, placerat lorem. sodales. elit
-                cursus nisi nec placerat eu dui Donec est. eget enim. turpis
-                tincidunt Morbi Ut non. tempor ex Nam dui orci at varius
-                fringilla ex eu scelerisque Ut viverra Cras nisi non volutpat
-                facilisis elementum Donec porta sollicitudin. placerat lorem.
-                non sapien tincidunt lacus quis hendrerit convallis. sit nisi
-                Nam fringilla nulla, non facilisis faucibus luctus consectetur
-                Cras ipsum sollicitudin. vel est. felis, non cursus elementum
-                amet, turpis Nunc vitae odio lacus, elit nec non amet, lorem.
-                tincidunt non, sed Vestibulum
+              The perfect venue is the foundation of an unforgettable wedding, and we help you find one that matches your style and vision. Whether it’s a luxurious palace, a serene beachfront, or a cozy countryside retreat, we offer a curated selection of destinations and venues. Our team handles every aspect, from site visits to negotiations and logistics, ensuring your chosen location aligns perfectly with your dream wedding. For destination weddings, we also assist with travel, accommodation, and local vendor arrangements, making the process hassle-free. Let us help you say “I do” in the perfect setting.
               </p>
             </div>
           </div>
@@ -174,19 +150,7 @@ const ServicesPage = () => {
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl font-bold mb-4">FOOD AND BEVERAGES</h2>
               <p className="text-gray-300 leading-relaxed">
-                cursus scelerisque orci Praesent non, Nam ex faucibus eget Lorem
-                ac Nullam sodales. Lorem In placerat. non fringilla felis, ex ex
-                volutpat amet, adipiscing Praesent laoreet Morbi Nunc dui.
-                lobortis, In ex. tincidunt felis, placerat lorem. sodales. elit
-                cursus nisi nec placerat eu dui Donec est. eget enim. turpis
-                tincidunt Morbi Ut non. tempor ex Nam dui orci at varius
-                fringilla ex eu scelerisque Ut viverra Cras nisi non volutpat
-                facilisis elementum Donec porta sollicitudin. placerat lorem.
-                non sapien tincidunt lacus quis hendrerit convallis. sit nisi
-                Nam fringilla nulla, non facilisis faucibus luctus consectetur
-                Cras ipsum sollicitudin. vel est. felis, non cursus elementum
-                amet, turpis Nunc vitae odio lacus, elit nec non amet, lorem.
-                tincidunt non, sed Vestibulum
+              Delight your guests with a culinary experience they’ll remember forever. We collaborate with top chefs and caterers to create a menu that perfectly complements your celebration. From elegant multi-course meals to curated cocktails and creative desserts, every dish is prepared with the finest ingredients and utmost care. We offer a wide range of cuisines, including regional specialties, international favorites, and dietary accommodations. Additionally, our beverage experts craft unique drink menus, including signature cocktails, mocktails, and fine wines. Let us elevate your wedding feast into a feast for the senses.
               </p>
             </div>
             {/* Image Section */}
@@ -219,19 +183,7 @@ const ServicesPage = () => {
                 ENTERTAINMENT
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                cursus scelerisque orci Praesent non, Nam ex faucibus eget Lorem
-                ac Nullam sodales. Lorem In placerat. non fringilla felis, ex ex
-                volutpat amet, adipiscing Praesent laoreet Morbi Nunc dui.
-                lobortis, In ex. tincidunt felis, placerat lorem. sodales. elit
-                cursus nisi nec placerat eu dui Donec est. eget enim. turpis
-                tincidunt Morbi Ut non. tempor ex Nam dui orci at varius
-                fringilla ex eu scelerisque Ut viverra Cras nisi non volutpat
-                facilisis elementum Donec porta sollicitudin. placerat lorem.
-                non sapien tincidunt lacus quis hendrerit convallis. sit nisi
-                Nam fringilla nulla, non facilisis faucibus luctus consectetur
-                Cras ipsum sollicitudin. vel est. felis, non cursus elementum
-                amet, turpis Nunc vitae odio lacus, elit nec non amet, lorem.
-                tincidunt non, sed Vestibulum
+              Entertainment is the heartbeat of any celebration, and we ensure your wedding is filled with joy, music, and unforgettable performances. Whether you want a live band, a talented DJ, or a traditional dance troupe, we’ll curate an entertainment lineup that resonates with your style. From pyrotechnic displays to interactive photo booths and surprise performances, we create moments that keep your guests engaged and energized. Let us turn your wedding into a celebration filled with laughter, dancing, and memories that last a lifetime.
               </p>
             </div>
           </div>
@@ -249,19 +201,7 @@ const ServicesPage = () => {
                 OTHER WEDDING SERVICES
               </h2>
               <p className="text-gray-300 leading-relaxed ">
-                cursus scelerisque orci Praesent non, Nam ex faucibus eget Lorem
-                ac Nullam sodales. Lorem In placerat. non fringilla felis, ex ex
-                volutpat amet, adipiscing Praesent laoreet Morbi Nunc dui.
-                lobortis, In ex. tincidunt felis, placerat lorem. sodales. elit
-                cursus nisi nec placerat eu dui Donec est. eget enim. turpis
-                tincidunt Morbi Ut non. tempor ex Nam dui orci at varius
-                fringilla ex eu scelerisque Ut viverra Cras nisi non volutpat
-                facilisis elementum Donec porta sollicitudin. placerat lorem.
-                non sapien tincidunt lacus quis hendrerit convallis. sit nisi
-                Nam fringilla nulla, non facilisis faucibus luctus consectetur
-                Cras ipsum sollicitudin. vel est. felis, non cursus elementum
-                amet, turpis Nunc vitae odio lacus, elit nec non amet, lorem.
-                tincidunt non, sed Vestibulum
+              Beyond the essentials, we offer a wide range of services to make your wedding truly extraordinary. From designing personalized invitations and managing guest lists to arranging transportation and return gifts, we take care of every detail. Our team also provides assistance with wedding photography, videography, and makeup artists to ensure you look and feel your best. Additionally, we handle special requests, such as cultural or religious customs, with respect and care. Whatever your needs, we’re here to bring your dream wedding to life with seamless execution and unparalleled attention to detail.
               </p>
             </div>
             {/* Image Section */}
@@ -281,7 +221,6 @@ const ServicesPage = () => {
         <ContactForm />
 
         <ScrollToTop />
-
       </div>
     </div>
   );

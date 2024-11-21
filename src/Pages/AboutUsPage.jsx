@@ -47,7 +47,7 @@ const AboutUsPage = () => {
                 About Us
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                Dream Wedding offers exceptional decoration services near you,
+                Vision Event Planner offers exceptional decoration services near you,
                 making every event a spectacular success. As the best event
                 planners in Indore, we bring creativity and precision to your
                 celebrations. Our team is renowned as the best party decorators

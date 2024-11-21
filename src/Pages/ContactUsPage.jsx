@@ -51,7 +51,7 @@ const ContactUsPage = () => {
         </p>
       </div>
 
-      <section id="contact-form" className="bg-gray-200 py-14 px-1 md:px-4">
+      <section id="contact-form" className="bg-[#162841] py-14 px-1 md:px-4">
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row justify-between ">
             {/* form container  */}
