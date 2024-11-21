@@ -185,7 +185,7 @@ const Footer = () => {
               <Link to="/" className="hover:text-emerald-600 ">Decorations</Link>
               </li>
               <li>
-              <Link to="/" className="hover:text-emerald-600 ">Gallery</Link>
+              <Link to="/gallery" className="hover:text-emerald-600 ">Gallery</Link>
               </li>
               <li>
               <Link to="/" className="hover:text-emerald-600 ">Blog</Link>
@@ -199,7 +199,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-          &copy; 2024 Dream Wedding. All rights reserved.
+          &copy; 2024 Vision Event. All rights reserved.
         </div>
       </div>
     </footer>

@@ -27,25 +27,24 @@ const Popular = () => {
   const images = [
     { img: img1, title: 'Bhopal' },
     { img: img2, title: 'Indore' },
-    { img: img3, title: 'Namkeen' },
-    { img: img4, title: 'Chocolate' },
+    { img: img3, title: 'Kolkata' },
+    { img: img4, title: 'Noida' },
     { img: img5, title: 'Delhi' },
-    { img: img6, title: 'Noida' },
+    { img: img6, title: 'Chennai' },
     { img: img7, title: 'Pune' },
     { img: img8, title: 'Jabalpur' },
     { img: img9, title: 'Sanchi' },
     { img: img10, title: 'Sonipath' },
     { img: img11, title: 'Raisen' },
     { img: img12, title: 'Guna' },
-    { img: img13, title: 'India' },
+    { img: img13, title: 'Ranchi' },
     { img: img14, title: 'Mumbai' },
   ];
 
   return (
     <section className="mx-auto mt-8 px-8 py-6" id="popular">
-      <h2 className="text-center text-3xl bordered-title mb-10">
-        Weddings
-        <span className="text-red-500 bordered-title p-0 m-0 font-bold"> Popular</span>
+      <h2 className="text-center text-white font-bold text-3xl bordered-title mb-10 ">
+        Popular Weddings 
       </h2>
       
       <div className="relative">

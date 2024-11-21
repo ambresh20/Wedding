@@ -2,6 +2,8 @@ import React from "react";
 import DecorativeLine from "../components/DecorativeLine";
 import Banner from "../Assest/AboutUs/Banner.png";
 import Img1 from "../Assest/Services/s1.png";
+import Img2 from "../Assest/AboutUs/Who.png";
+import Img3 from "../Assest/AboutUs/Offer.png";
 import ContactForm from "../components/ContactForm";
 import ScrollToTop from "../components/ScrollToTop" ;
 
@@ -89,7 +91,7 @@ const AboutUsPage = () => {
             {/* Image Section */}
             <div className="w-full lg:w-1/2 mb-8 lg:ml-8">
               <img
-                src={Img1}
+                src={Img2}
                 alt="who we are"
                 className="rounded-lg shadow-lg transform hover:scale-105 transition duration-300"
               />
@@ -105,7 +107,7 @@ const AboutUsPage = () => {
           <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-12 ">
             <div className="w-full lg:w-1/2">
               <img
-                src={Img1}
+                src={Img3}
                 alt="we offer"
                 className="rounded-lg shadow-lg transform hover:scale-105 transition duration-300"
               />

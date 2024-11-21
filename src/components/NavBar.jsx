@@ -36,7 +36,7 @@ const NavBar = () => {
               <Link to="/" className="text-white hover:text-pink-500">
                 HOME
               </Link>
-              <Link to="/" className="text-white hover:text-pink-500">
+              <Link to="/gallery" className="text-white hover:text-pink-500">
                 GALLERY
               </Link>
               <Link to="/recent" className="text-white hover:text-pink-500">
@@ -66,7 +66,7 @@ const NavBar = () => {
                 HOME
               </Link>
               <Link
-                to="/"
+                to="/gallery"
                 className="block px-3 py-2 text-white hover:text-pink-500"
               >
                 GALLERY

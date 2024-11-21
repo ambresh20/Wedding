@@ -2,18 +2,20 @@ import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import img1 from "../Assest/wedswipe/b1.png";
-import img2 from "../Assest/wedswipe/b2.jpg";
-import img3 from "../Assest/wedswipe/b3.png";
-import img4 from "../Assest/wedswipe/b4.png";
-import img5 from "../Assest/wedswipe/b5.png";
+import img1 from "../Assest/wedswipe/b7.png";
+import img2 from "../Assest/wedswipe/b8.png";
+import img3 from "../Assest/wedswipe/b9.png";
+import img4 from "../Assest/wedswipe/b10.png";
+import img5 from "../Assest/wedswipe/b11.png";
 import img6 from "../Assest/wedswipe/b6.png" ;
+import img7 from "../Assest/wedswipe/b12.png";
+import img8 from "../Assest/wedswipe/b13.png";
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const images = [img6, img1, img2, img3, img4, img5];
+const images = [img6, img1, img2, img3, img4, img5, img7, img8];
 
 const HeroSection = () => {
   const prevRef = useRef(null);

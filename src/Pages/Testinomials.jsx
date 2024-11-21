@@ -98,11 +98,6 @@ const Testinomials = () => {
         {/* Line  */}
         <DecorativeLine />
 
-        <Popular />
-
-        {/* Line  */}
-        <DecorativeLine />
-
         {/* Card  */}
         <div className="min-h-screen p-10 flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -111,6 +106,12 @@ const Testinomials = () => {
             ))}
           </div>
         </div>
+
+        {/* Line  */}
+        <DecorativeLine />
+    
+        {/* Popular Wedding swiper  */}
+        <Popular />
 
         {/* Line  */}
         <DecorativeLine />
